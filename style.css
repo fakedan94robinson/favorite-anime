@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+.cards {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+}
+.anime {
+  margin-bottom: 1vh;
+  border-radius: 2.5vh;
+  height: 30vh;
+  width: 50vh;
+  cursor: pointer;
+}
+
+/* BANDS */
+#fmab {
+  background: url("./images/FMAB-2.png");
+  background-size: 50vh 30vh;
+}
+#tg {
+  background: url("./images/tg.png");
+  background-size: 50vh 30vh;
+}
+#aot {
+  background: url("./images/aot.jpg");
+  background-size: 50vh 30vh;
+}
+#ylia {
+  background: url("./images/ylia.jpg");
+  background-size: 50vh 30vh;
+}
+#dn {
+  background: url("./images/dn2.jpg");
+  background-size: 50vh 32vh;
+}
+#diapt {
+  background: url("./images/diapt-1.jpg");
+  background-size: 50vh 30vh;
+}
+#sao {
+  background: url("./images/soa.jpg");
+  background-size: 50vh 37vh;
+}
+#op {
+  background: url("./images/op.jpg");
+  background-size: 50vh 30vh;
+}
+#nge {
+  background: url("./images/nga.jpg");
+  background-size: 50vh 30vh;
+}
+
+/* RED ONES */
+#op.red {
+  background: linear-gradient(
+      rgba(255, 88, 88, 0.728),
+      rgba(255, 88, 88, 0.728)
+    ),
+    url("./images/op.jpg");
+  background-size: 50vh 30vh;
+  background-position: center;
+}
+
+/* FACTS */
+
+.facts {
+  position: absolute;
+  background: rgb(204, 237, 199);
+  border-radius: 5vh;
+  z-index: 25;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 27vh;
+  margin-bottom: auto;
+  width: 53%;
+  height: 51%;
+}
+#brother.facts {
+  display: none;
+}
+#tokyo.facts {
+  display: none;
+}
+#attack.facts {
+  display: none;
+}
+#april.facts {
+  display: none;
+}
+#death.facts {
+  display: none;
+}
+#devil.facts {
+  display: none;
+}
+#sword.facts {
+  display: none;
+}
+#one.facts {
+  background: rgb(255, 166, 166);
+  display: none;
+}
+#neon.facts {
+  display: none;
+}
+
+#grey {
+  background: rgb(58, 58, 58);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 19;
+  display: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
